@@ -1,0 +1,15 @@
+#map {
+  position: relative;
+  margin-top: 50px;
+  bottom: 50px;
+  height: 50%;
+  width: 100%;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}

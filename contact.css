@@ -1,0 +1,167 @@
+/* DEFAULT */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Audiowide", serif;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  background-color: #000000;
+  color: #fff;
+  padding: 20px;
+}
+
+.background-image{
+  background-image: url('main5.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.1); 
+  text-align: center;
+  padding: 200px;
+
+}
+.background-image h1 {
+  font-size: 72px;
+}
+/* FOOTER */
+footer {
+  font-family: "Audiowide";
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+.icons {
+  cursor: pointer;
+  display: inline-flex;
+}
+.i0 {
+  padding-right: 20px;
+}
+.i4 {
+  padding-right: 20px;
+}
+.i1 {
+  padding-right: 20px;
+}
+.i2 {
+  padding-right: 20px;
+}
+.i3 {
+  padding-right: 20px;
+}
+
+/* BODY */
+body {
+  margin: 0;
+  font-family: "Audiowide", serif;
+  background-color: #000000 !important;
+  color: #ffffff;
+  scroll-behavior: smooth;
+}
+
+/*NAVBAR*/
+nav {
+  background-color: #3009de;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* SECTION */
+section {
+  margin: 40px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: white !important;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 100px;
+}
+
+img {
+  padding-top: 20px;
+  width: 550px;
+  height: 300px;
+}
+
+.col {
+  padding: 50px;
+}
+
+form {
+  width: 100%;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: rgb(41, 40, 40);
+  color: white;
+}
+
+label {
+  color: #fff !important;
+}
+
+input[type="submit"] {
+  width: 100%;
+  height: 30px;
+  background-color: #db3434;
+  color: white !important;
+  border: 1px solid grey;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  background-color: rgb(41, 40, 40);
+  color: white;
+}
+
+#msg {
+  color: white;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
