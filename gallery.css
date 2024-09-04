@@ -99,3 +99,50 @@ nav ul li a:hover {
 .i3 {
   padding-right: 20px;
 }
+
+@media (max-width: 768px) {
+    /* Adjusting header padding for smaller screens */
+    header {
+        padding: 10px;
+    }
+
+    /* Adjusting background image padding and text size for mobile */
+    .background-image {
+        padding: 100px;
+    }
+
+    .background-image h1 {
+        font-size: 36px;
+    }
+
+    /* Responsive gallery items */
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .gallery-item {
+        width: 100%;
+        margin: 5px;
+    }
+
+    /* Adjusting the navbar to stack vertically on smaller screens */
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li a {
+        padding: 10px;
+    }
+
+    /* Icon spacing */
+    .icons {
+        justify-content: center;
+    }
+
+    /* Footer adjustments */
+    footer {
+        padding: 20px;
+    }
+}
